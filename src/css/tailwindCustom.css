@@ -1,0 +1,28 @@
+/* importe montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* podemos junstar clases para crear componentes */
+.btn {
+    @apply px-4 py-2 rounded font-monse;
+}
+
+.btn-blue {
+    @apply text-white bg-blue-500;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
